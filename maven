@@ -1,6 +1,7 @@
 #!/bin/bash 
 echo "STEP1: Update the ubuntu && install - 'unzip' and 'jdk-17' " 
 sudo apt update -y && sudo apt install -y unzip openjdk-17-jdk
+echo "UPDATED" 
 
 echo
 echo "STEP2: Download maven3.9.6.zip and unzip it" 
